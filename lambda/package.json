@@ -1,0 +1,16 @@
+{
+  "name": "indiegov-csv-stream",
+  "version": "1.0.0",
+  "description": "stream csv data from s3 to mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Shumway",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1192.0",
+    "fast-csv": "^4.3.6",
+    "mongodb": "^4.8.1"
+  }
+}

@@ -1,1 +1,4 @@
 # indiegov-challenge
+Prompt: Assume that you have been given a CSV file of constituent data. The header row is Email,FirstName,LastName,ZipCode. Create a web page that reads the data from a data store of your choice and displays it using a simple React application. Your final product does not have to be a real working demo. We’re more interested in how you think and what you prioritize in your code.
+
+Summary: using Aws resources like Lambda, EventBridge & S3 we can automate the processing of csv files by streaming them immediatley when they are uploaded into our data base. I used mongodb for this challenge as it is easy to setup and works well with nodejs. the backend simply returns whatever we have in the constituent_data collection to the frontend and the ui itself only renders the data from the backend.
